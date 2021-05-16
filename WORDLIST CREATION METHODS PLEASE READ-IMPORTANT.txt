@@ -1,9 +1,16 @@
 In order to create a wordlist, I used crunch in Linux. I used Kali linux for this. This process will be the same for all Debian and Ubuntu based distros.
-the wordlist can be created with the following command:
+
+Crunch can be installed with the following command in ubuntu and debian based distros:
+sudo apt install crunch
+
+For other distros such as Fedora etc, the .tgz file can be downloaded from this link: 
+https://sourceforge.net/projects/crunch-wordlist/files/latest/download
+
+The wordlist can be created with the following command:
 
 crunch 4 8 0123456789 -o file path/nameoffile.txt
 
-for example in my case it was:
+For example in my case it was:
 
 crunch 4 8 0123456789 -o /home/username/Documents/PIN.txt
 
@@ -19,6 +26,9 @@ crunch 4 8 0123456789 -o /home/username/Documents/PIN.txt
   |
 command call
 
-REMEMBER : crunch is just one way of creating a wordlist. Online utilities such as at https://www.wordlist-generator.net/ can be used for non-linux users.
+REMEMBER : crunch is just one way of creating a wordlist. Online utilities such as at 
+https://www.wordlist-generator.net/ 
+This can be used for non-linux users.
+
 However, crunch is a more convenient way of making one.
 I apologise for being unable to upload the wordlist for file size restrictions.
