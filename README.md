@@ -7,3 +7,42 @@ I hope you will find this code to be useful :)
 
 PROGRAM REQUIREMENTS : WORDLIST AS A TEXT FILE, WORDLIST CREATION PROGRAM.
  
+ 
+ 
+In order to create a wordlist, I used crunch in Linux. I used Kali linux for this. This process will be the same for all Debian and Ubuntu based distros.
+
+Crunch can be installed with the following command in ubuntu and debian based distros:
+
+        sudo apt install crunch
+
+For other distros such as Fedora etc, the .tgz file can be downloaded from this link: 
+https://sourceforge.net/projects/crunch-wordlist/files/latest/download
+
+The wordlist can be created with the following command:
+
+crunch 4 8 0123456789 -o file path/nameoffile.txt
+
+For example in my case it was:
+
+crunch 4 8 0123456789 -o /home/username/Documents/PIN.txt
+
+![image](https://user-images.githubusercontent.com/74146327/119104123-f2d05900-ba2c-11eb-8d18-39201d4e2ce3.png)
+
+(I have uploaded images for ease)
+
+Explanation:
+crunch 4 8 0123456789 -o /home/username/Documents/PIN.txt
+  |    | |     |            
+  |    | |   range of characters
+  |    | | 
+  |    | maximum number of characters in a password
+  |   minimum number of characters in a password
+  |
+command call
+
+REMEMBER : crunch is just one way of creating a wordlist. Online utilities such as at 
+https://www.wordlist-generator.net/ 
+This can be used for non-linux users.
+
+However, crunch is a more convenient way of making one.
+I apologise for being unable to upload the wordlist for file size restrictions.
