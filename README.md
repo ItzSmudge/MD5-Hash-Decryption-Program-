@@ -24,7 +24,7 @@ crunch 4 8 0123456789 -o file path/nameoffile.txt
 
 For example in my case it was:
 
-crunch 4 8 0123456789 -o /home/username/Documents/PIN.txt
+       crunch 4 8 0123456789 -o /home/username/Documents/PIN.txt
 
 ![image](https://user-images.githubusercontent.com/74146327/119104123-f2d05900-ba2c-11eb-8d18-39201d4e2ce3.png)
 
