@@ -7,7 +7,7 @@ I hope you will find this code to be useful :)
 
 PROGRAM REQUIREMENTS : WORDLIST AS A TEXT FILE, WORDLIST CREATION PROGRAM.
  
- 
+NOTE : This program works for PIN numbers ranging from 4 to 6 digits only. 
  
 In order to create a wordlist, I used crunch in Linux. I used Kali linux for this. This process will be the same for all Debian and Ubuntu based distros.
 
