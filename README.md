@@ -25,6 +25,12 @@ crunch 4 8 0123456789 -o file path/nameoffile.txt
 For example in my case it was:
 
        crunch 4 8 0123456789 -o /home/username/Documents/PIN.txt
+Update : A md5 hash generator pprogram is now available.
+
+The has output of the program will look similar to as follows: 
+       b'96e79218965eb72c92a549dd5a330112'
+  
+The required has is the string within the 'quotation marks'
 
 ![image](https://user-images.githubusercontent.com/74146327/119104123-f2d05900-ba2c-11eb-8d18-39201d4e2ce3.png)
 
