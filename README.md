@@ -28,6 +28,7 @@ For example in my case it was:
 Update : A md5 hash generator pprogram is now available.
 
 The has output of the program will look similar to as follows: 
+
        b'96e79218965eb72c92a549dd5a330112'
   
 The required has is the string within the 'quotation marks'
