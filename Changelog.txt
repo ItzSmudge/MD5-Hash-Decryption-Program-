@@ -1,0 +1,2 @@
+11/08/2022
+Added md5 hash generator
